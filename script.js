@@ -101,7 +101,7 @@ new Vue({
 				const ReIm = c.power(this.power);
 				real = ReIm[0] + x; // Zの二乗 + C(実部)
 				imag = ReIm[1] + y; // Zの二乗 + C(虚部)
-		
+
 				if (this.upto < real * imag) {
 					return (i / this.limit * 100)
 				}
